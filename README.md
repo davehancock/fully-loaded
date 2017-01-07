@@ -12,4 +12,4 @@ The example makes use of the following:
 
 See the below diagram for a basic overview.
 
-![alt tag](docs/OTFCloudProvisioner.png)
+![alt tag](docs/fully-loaded.png)
