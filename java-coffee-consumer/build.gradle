@@ -1,0 +1,23 @@
+
+plugins {
+    id 'org.springframework.boot' version '1.5.1.RELEASE'
+}
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+jar {
+    archiveName = "${project.name}.jar"
+    version = '0.0.1-SNAPSHOT'
+}
+
+dependencies {
+
+    compile("org.springframework.boot:spring-boot-starter-web:1.5.1.RELEASE")
+    testCompile("junit:junit:4.11")
+}
