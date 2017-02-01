@@ -11,7 +11,7 @@ Iteration 1:
     - N number of replicas for each service type with divided performance stats
     - CI and Publishing of Docker image using Travis  
     - Gatling load testing tool
-    - Some simple Java 8 Spring boot apps
+    - A simple Java 8 Spring boot app
     
 Iteration 2:
 
