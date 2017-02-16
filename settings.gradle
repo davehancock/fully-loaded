@@ -1,2 +1,2 @@
-include 'java-coffee-consumer'
-
+include 'iteration1:java-coffee-consumer'
+include 'iteration1:gatling-coffee-producer'

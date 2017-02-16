@@ -1,0 +1,14 @@
+version: '2'
+services:
+  coffee-producer:
+    image: daves125125/java-coffee-consumer
+    mem_limit: 500m
+    environment:
+      - JAVA_OPTS=-Xms128m -Xmx256m
+    restart: on-failure
+    networks:
+     - coffeeshop
+
+networks:
+ coffeeshop:
+   driver: overlay

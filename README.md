@@ -10,8 +10,8 @@ Iteration 1:
     - Docker 1.12 / 13 with native Swarm mode, built in load balancing, routing mesh etc
     - N number of replicas for each service type with divided performance stats
     - CI and Publishing of Docker image using Travis  
-    - Gatling load testing tool
-    - A simple Java 8 Spring boot app
+    - Gatling load testing tool (Some Consumer)
+    - A simple Java 8 Spring boot app (Some Consumer)
     
 Iteration 2:
 
